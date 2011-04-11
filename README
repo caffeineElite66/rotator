@@ -1,0 +1,17 @@
+/Go/rid/123456
+
+That will be the entry url. 
+1. Get a rotator base on the rid, a default will return in case there is an invalid rotator. (Rotator)
+2. Rotator will get a custom destinationPath. 
+3. Save a new RotatorRawTraffic
+4. Redirect Traffic.
+
+a: 30
+b: 50
+c: 10
+d: 10
+
+1
+
+0 
+

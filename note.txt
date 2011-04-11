@@ -1,0 +1,3 @@
+- Got the debugger working.
+- In testerService, the JpaTesterDao is null.
+- Fixed bunch XML namespace issues, but still can not fucking get the test working. I'm going to try putting everything in the resources directory.
