@@ -28,12 +28,20 @@
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
           p:dataSource-ref="dataSource"
           p:jpaVendorAdapter-ref="jpaAdapter">
+        <property name="jpaProperties">
+                  <props>
+                      <prop key="hibernate.hbm2ddl.auto">create</prop>
+                  </props>
+        </property>
     </bean>
+
+    
 
     <bean id="jpaAdapter"
           class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"
           p:database="${jdbc.database}"
-          p:showSql="${jdbc.showSql}"/>
+          p:showSql="${jdbc.showSql}"
+    />
 
 
 

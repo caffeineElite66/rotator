@@ -6,4 +6,5 @@ import java.net.URL;
 public interface RotatorService {
 
     public URL getDestinationPath(long rid) throws MalformedURLException;
+    
 }
