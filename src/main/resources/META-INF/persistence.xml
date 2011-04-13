@@ -4,6 +4,8 @@
 		version="1.0">
 
     <persistence-unit name="rotator" transaction-type="RESOURCE_LOCAL">
+
+  
         <class>com.cn.rotator.domain.dom.Rotator</class>
         <class>com.cn.rotator.domain.dom.RotatorDestinationPath</class>
     </persistence-unit>
